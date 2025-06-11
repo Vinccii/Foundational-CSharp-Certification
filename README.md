@@ -1,7 +1,7 @@
 # 📘 C# Player's Guide – Lernprojekt
 
 Willkommen in meinem Lernprojekt zum Buch **"The C# Player’s Guide" (5th Edition)** von R. B. Whitaker.  
-Ich arbeite dieses Buch strukturiert durch, um meine C#-Grundlagen zu festigen und mich gezielt auf einen dualen Studienplatz im Bereich **Software Engineering / Wirtschaftsinformatik** vorzubereiten.
+Ich arbeite dieses Buch strukturiert durch, um meine C#-Grundlagen zu festigen und mich gezielt auf einen dualen Studienplatz im Bereich **Wirtschaftsinformatik / Software Engineering** vorzubereiten.
 
 ## 🎯 Ziel des Projekts
 
@@ -28,5 +28,5 @@ Das Repository ist nach den Kapiteln des Buches gegliedert:
 
 Ich bin ein motivierter Quereinsteiger mit großer Begeisterung für Softwareentwicklung und DevOps.  
 Aktuell bereite ich mich intensiv auf einen dualen Studiengang in Wirtschaftspsychologie / Softwareengineering vor.  
-Dieses Repository ist Teil meines autodidaktischen Wegs, meine Lernbereitschaft und Zielstrebigkeit sichtbar zu machen.
+Dieses Repository ist Teil meines autodidaktischen Wegs, vielen Dank fürs lesen ✌️
 
