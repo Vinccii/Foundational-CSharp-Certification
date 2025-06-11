@@ -14,8 +14,10 @@ Ich arbeite dieses Buch strukturiert durch, um meine C#-Grundlagen zu festigen u
 
 Das Repository ist nach den Kapiteln des Buches gegliedert:
 📁 ChapterXX_Name
+
 ┣ 📄 ChallengeName.cs
-┗ 📄 Notes.md (optional: Zusammenfassungen, Erklärungen, Reflexion)
+
+┗ 📄 Notes.md (Zusammenfassungen, Erklärungen, Reflexion)
 
 ## 🔧 Technologien
 
