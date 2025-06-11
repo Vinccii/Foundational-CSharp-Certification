@@ -13,6 +13,7 @@ Ich arbeite dieses Buch strukturiert durch, um meine C#-Grundlagen zu festigen u
 ## 📚 Projektstruktur
 
 Das Repository ist nach den Kapiteln des Buches gegliedert:
+
 📁 ChapterXX_Name
 
 ┣ 📄 ChallengeName.cs
