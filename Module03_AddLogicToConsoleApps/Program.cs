@@ -1,3 +1,4 @@
 ﻿using Module03_AddLogicToConsoleApps;
 
-ForStatementExploration.Run();
+//ForStatementExploration.Run();
+FizzBuzzChallenge.Run();
