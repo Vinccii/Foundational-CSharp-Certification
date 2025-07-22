@@ -24,5 +24,5 @@ Das Repository ist nach Modulen des Zertifikatskurses gegliedert:
 
 🙋‍♂️ Über mich  
 Ich bin ein engagierter Quereinsteiger mit starkem Interesse an Softwareentwicklung und DevOps.  
-Aktuell bereite ich mich auf einen dualen Studiengang in Wirtschaftsinformatik / Software Engineering vor.  
+Aktuell bereite ich mich auf einen Ausbildung als Fachinformaatiker und ein duales Studium in Wirtschaftsinformatik vor.
 Dieses Repository ist Teil meines autodidaktischen Weges – vielen Dank fürs Reinschauen! ✌️
