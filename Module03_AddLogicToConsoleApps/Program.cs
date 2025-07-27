@@ -3,4 +3,5 @@
 //ForStatementExploration.Run();
 //FizzBuzzChallenge.Run();
 //DoAndWhileIterationLoops.Run();
-BattleSimulationChallenge.Run();
+//BattleSimulationChallenge.Run();
+IntegerInputValidationChallenge.Run();
