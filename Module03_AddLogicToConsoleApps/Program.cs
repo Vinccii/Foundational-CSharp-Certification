@@ -4,4 +4,5 @@
 //FizzBuzzChallenge.Run();
 //DoAndWhileIterationLoops.Run();
 //BattleSimulationChallenge.Run();
-IntegerInputValidationChallenge.Run();
+//IntegerInputValidationChallenge.Run();
+RoleInputValidationChallenge.Run();
