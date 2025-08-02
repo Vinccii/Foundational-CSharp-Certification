@@ -5,4 +5,5 @@
 //DoAndWhileIterationLoops.Run();
 //BattleSimulationChallenge.Run();
 //IntegerInputValidationChallenge.Run();
-RoleInputValidationChallenge.Run();
+//RoleInputValidationChallenge.Run();
+SentenceSplitChallenge.Run();

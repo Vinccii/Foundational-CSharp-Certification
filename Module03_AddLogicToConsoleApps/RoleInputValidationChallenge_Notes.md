@@ -43,7 +43,9 @@ Ziel ist es, die Eingabe zu **bereinigen und zu vergleichen**, bis eine gültige
 
 ## Unterschied zur Musterlösung
 
+
 - Die Musterlösung speichert `readResult.Trim()` zuerst in `roleName` und ruft `ToLower()` später auf → ich habe direkt `Trim().ToLower()` gemacht
 - Beide Lösungen sind **funktional gleichwertig**
 
 ---
+
