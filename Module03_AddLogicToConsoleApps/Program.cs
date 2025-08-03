@@ -1,4 +1,5 @@
 ﻿using Module03_AddLogicToConsoleApps;
+using Module03_AddLogicToConsoleApps.GuidedProject_PetApp;
 
 //ForStatementExploration.Run();
 //FizzBuzzChallenge.Run();
@@ -6,4 +7,5 @@
 //BattleSimulationChallenge.Run();
 //IntegerInputValidationChallenge.Run();
 //RoleInputValidationChallenge.Run();
-SentenceSplitChallenge.Run();
+//SentenceSplitChallenge.Run();
+AnimalApp.Run();
