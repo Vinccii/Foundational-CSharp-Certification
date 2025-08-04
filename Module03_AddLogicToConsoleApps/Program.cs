@@ -1,4 +1,5 @@
 ﻿using Module03_AddLogicToConsoleApps;
+using Module03_AddLogicToConsoleApps.ChallangeProject_PetApp;
 using Module03_AddLogicToConsoleApps.GuidedProject_PetApp;
 
 //ForStatementExploration.Run();
@@ -8,4 +9,5 @@ using Module03_AddLogicToConsoleApps.GuidedProject_PetApp;
 //IntegerInputValidationChallenge.Run();
 //RoleInputValidationChallenge.Run();
 //SentenceSplitChallenge.Run();
-AnimalApp.Run();
+//AnimalApp.Run();
+AnimalAppChallange.Run();
