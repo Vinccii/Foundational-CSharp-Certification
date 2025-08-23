@@ -276,6 +276,9 @@ namespace Module03_AddLogicToConsoleApps.ChallangeProject_PetApp
 
                     case "3":
                         // Ensure animal ages and physical description are complete
+                        // TODO: loop through ourAnimals array
+                        // TODO: check for missing age or description
+                        // TODO: prompt user to enter missing values
                         Console.WriteLine("Challenge Project - please check back soon to see progress.");
                         Console.WriteLine("Press the Enter key to continue.");
                         readResult = Console.ReadLine();
