@@ -277,9 +277,39 @@ namespace Module03_AddLogicToConsoleApps.ChallangeProject_PetApp
                     case "3":
                         // Ensure animal ages and physical description are complete
                         // TODO: loop through ourAnimals array
-                        // TODO: check for missing age or description
-                        // TODO: prompt user to enter missing values
-                        Console.WriteLine("Challenge Project - please check back soon to see progress.");
+                        for (int i = 0; i < maxPets; i++)
+                        {
+                            // nur Tiere mit ID (Default ist "ID #: ")
+                            if (ourAnimals[i, 0] == "ID #: ") continue;
+
+                            // ---- ID extrahieren ----
+                            string id = ourAnimals[i, 0].Replace("ID #:", "").Trim();
+
+                            // ---- AGE ----
+                            string ageValue = ourAnimals[i, 2].Replace("Age:", "").Trim();
+                            int ageNum;
+                            while (!int.TryParse(ageValue, out ageNum))
+                            {
+                                Console.WriteLine($"Enter an age for ID #: {id}");
+                                string? input = Console.ReadLine();
+                                ageValue = (input ?? "").Trim();
+                            }
+                            if (ageNum < 0) ageNum = 0;
+                            if (ageNum > 40) ageNum = 40;
+                            ourAnimals[i, 2] = "Age: " + ageNum;
+
+                            // ---- PHYSICAL DESCRIPTION ----
+                            string phys = ourAnimals[i, 4].Replace("Physical description:", "").Trim();
+                            while (string.IsNullOrWhiteSpace(phys))
+                            {
+                                Console.WriteLine($"Enter a physical description for ID #: {id} (size, color, breed, gender, weight, housebroken)");
+                                string? input = Console.ReadLine();
+                                phys = (input ?? "").Trim();
+                            }
+                            ourAnimals[i, 4] = "Physical description: " + phys.ToLower();
+                        }
+
+                        Console.WriteLine("Age and physical description fields are complete for all of our friends.");
                         Console.WriteLine("Press the Enter key to continue.");
                         readResult = Console.ReadLine();
                         break;
