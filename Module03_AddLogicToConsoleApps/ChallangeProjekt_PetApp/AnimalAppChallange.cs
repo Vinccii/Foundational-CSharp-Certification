@@ -314,8 +314,9 @@ namespace Module03_AddLogicToConsoleApps.ChallangeProject_PetApp
                         readResult = Console.ReadLine();
                         break;
                     case "4":
-                        // Ensure animal nicknames and personality descriptions are complete
-                        Console.WriteLine("Challenge Project - please check back soon to see progress.");
+                        // TODO: implement nickname and personality description validation
+                        Console.WriteLine("Menu option 4 selected: Ensure animal nicknames and personality descriptions are complete");
+                        Console.WriteLine("Feature not yet implemented - work in progress.");
                         Console.WriteLine("Press the Enter key to continue.");
                         readResult = Console.ReadLine();
                         break;
