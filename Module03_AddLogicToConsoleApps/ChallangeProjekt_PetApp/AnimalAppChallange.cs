@@ -315,8 +315,32 @@ namespace Module03_AddLogicToConsoleApps.ChallangeProject_PetApp
                         break;
                     case "4":
                         // TODO: implement nickname and personality description validation
-                        Console.WriteLine("Menu option 4 selected: Ensure animal nicknames and personality descriptions are complete");
-                        Console.WriteLine("Feature not yet implemented - work in progress.");
+                        for (int i = 0; i < maxPets; i++)
+                        {
+
+                            if (ourAnimals[i, 0] == "ID #: ") continue;
+
+                            // ID extrahieren (z. B. "c4")
+                            string id = ourAnimals[i, 0].Replace("ID #:", "").Trim();
+
+                            // aktuellen Nickname ohne Label holen (aus "Nickname: lola" -> "lola")
+                            string nicknameRaw = ourAnimals[i, 3].Replace("Nickname:", "").Trim();
+
+                            // solange Nickname leer ist, nachfragen
+                            while (string.IsNullOrEmpty(nicknameRaw))
+                            {
+                                Console.WriteLine($"Enter a nickname for ID #: {id}");
+                                string? input = Console.ReadLine();
+                                nicknameRaw = (input ?? "").Trim();
+                            }
+
+                            // zurückschreiben (Label genau beibehalten!)
+                            ourAnimals[i, 3] = "Nickname:" + nicknameRaw;
+                        }
+
+
+                        Console.WriteLine("Nickname fields are complete for all of our friends.");
+
                         Console.WriteLine("Press the Enter key to continue.");
                         readResult = Console.ReadLine();
                         break;
