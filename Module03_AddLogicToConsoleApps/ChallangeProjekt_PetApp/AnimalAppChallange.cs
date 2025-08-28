@@ -336,6 +336,16 @@ namespace Module03_AddLogicToConsoleApps.ChallangeProject_PetApp
 
                             // zurückschreiben (Label genau beibehalten!)
                             ourAnimals[i, 3] = "Nickname:" + nicknameRaw;
+
+                            // personality extrahieren
+                            string personalityRaw = ourAnimals[i, 5].Replace("Personality:", "").Trim();
+                            while (string.IsNullOrEmpty(personalityRaw))
+                            {
+                                Console.WriteLine($"Enter a personality description for ID #: {id} (likes or dislikes, tricks, energy level");
+                                string? input = Console.ReadLine();
+                                personalityRaw = (input ?? "").Trim();
+                            }
+                            ourAnimals[i, 5] = "Personality: " + personalityRaw;
                         }
 
 
