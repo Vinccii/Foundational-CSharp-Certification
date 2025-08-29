@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module03_AddLogicToConsoleApps", "Module03_AddLogicToConsoleApps\Module03_AddLogicToConsoleApps.csproj", "{70240F20-434F-018C-1B47-0B5DF9EFB2E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module04_WorkWithVariableDataInC#ConsoleApplications", "Module04_WorkWithVariableDataInC#ConsoleApplications\Module04_WorkWithVariableDataInC#ConsoleApplications.csproj", "{99B314BE-5761-432E-B1F9-58FCCC1864DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{70240F20-434F-018C-1B47-0B5DF9EFB2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70240F20-434F-018C-1B47-0B5DF9EFB2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70240F20-434F-018C-1B47-0B5DF9EFB2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B314BE-5761-432E-B1F9-58FCCC1864DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B314BE-5761-432E-B1F9-58FCCC1864DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B314BE-5761-432E-B1F9-58FCCC1864DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B314BE-5761-432E-B1F9-58FCCC1864DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
