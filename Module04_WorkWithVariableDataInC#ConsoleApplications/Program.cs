@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+using Module04_WorkWithVariableDataInCSharpConsoleApplications;
+
+Console.WriteLine("Module 04 – Work With Variable Data in C#");

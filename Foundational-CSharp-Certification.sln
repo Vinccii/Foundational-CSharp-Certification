@@ -5,7 +5,7 @@ VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module03_AddLogicToConsoleApps", "Module03_AddLogicToConsoleApps\Module03_AddLogicToConsoleApps.csproj", "{70240F20-434F-018C-1B47-0B5DF9EFB2E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module04_WorkWithVariableDataInC#ConsoleApplications", "Module04_WorkWithVariableDataInC#ConsoleApplications\Module04_WorkWithVariableDataInC#ConsoleApplications.csproj", "{99B314BE-5761-432E-B1F9-58FCCC1864DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module04_WorkWithVariableDataInCSharpConsoleApplications", "Module04_WorkWithVariableDataInC#ConsoleApplications\Module04_WorkWithVariableDataInCSharpConsoleApplications.csproj", "{99B314BE-5761-432E-B1F9-58FCCC1864DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Module03_AddLogicToConsoleApps.ChallangeProject_PetApp
+namespace Module03_AddLogicToConsoleApps.ChallengeProject_PetApp
 {
-    internal class AnimalAppChallange
+    internal class AnimalAppChallenge
     {
         public static void Run()
         {
