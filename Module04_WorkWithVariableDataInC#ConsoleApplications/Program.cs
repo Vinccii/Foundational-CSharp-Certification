@@ -1,4 +1,6 @@
-﻿using Module04_WorkWithVariableDataInCSharpConsoleApplications.Exercises;
+﻿using Module04_WorkWithVariableDataInC_ConsoleApplications;
+using Module04_WorkWithVariableDataInCSharpConsoleApplications.Exercises;
 
 Console.WriteLine("Module 04 – Work With Variable Data in C#");
-DiscoverIntegralTypesExercise.Run();
+//DiscoverIntegralTypesExercise.Run();
+DiscoverFloatingPointTypesExercise.Run();
