@@ -5,4 +5,5 @@ Console.WriteLine("Module 04  Work With Variable Data in C#");
 //DiscoverIntegralTypesExercise.Run();
 //DiscoverFloatingPointTypesExercise.Run();
 //DiscoverReferenceTypesExercise.Run();
-ExploreDataTypeCastingAndConversionExercise.Run();
+//ExploreDataTypeCastingAndConversionExercise.Run();
+ExamineTheTryParse__MethodExersice.Run();
