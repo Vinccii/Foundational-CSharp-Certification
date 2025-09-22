@@ -7,4 +7,5 @@ Console.WriteLine("Module 04  Work With Variable Data in C#");
 //DiscoverReferenceTypesExercise.Run();
 //ExploreDataTypeCastingAndConversionExercise.Run();
 //ExamineTheTryParse__MethodExersice.Run();
-CombineStringArrayValuesAsStringsAndIntergersExercise.Run();
+//CombineStringArrayValuesAsStringsAndIntergersExercise.Run();
+OutputMathOperationAsSpecficNumberTypesExercise.Run();
