@@ -11,4 +11,5 @@ Console.WriteLine("Module 04  Work With Variable Data in C#");
 //OutputMathOperationAsSpecficNumberTypesExercise.Run();
 //DiscoverSort__andReverse__Exercise.Run();
 //ExploreClear__AndResize__Exercise.Run();
-DiscoverSplit__AndJoin__Exercise.Run();
+//DiscoverSplit__AndJoin__Exercise.Run();
+ReverseWordsInASentenceChallange.Run();
