@@ -10,4 +10,5 @@ Console.WriteLine("Module 04  Work With Variable Data in C#");
 //CombineStringArrayValuesAsStringsAndIntergersExercise.Run();
 //OutputMathOperationAsSpecficNumberTypesExercise.Run();
 //DiscoverSort__andReverse__Exercise.Run();
-ExploreClear__AndResize__Exercise.Run();
+//ExploreClear__AndResize__Exercise.Run();
+DiscoverSplit__AndJoin__Exercise.Run();
